@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background: #ffffff no-repeat center url("photo/я2.jpg");
+    background-size: cover;
+    color: #000000;
+}
+
+h1{
+    width: 500px;
+    margin: 0 auto 8px;
+    font-family: "Georgia", serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+h2 {
+    border-bottom: 2px solid #070707;
+    padding-bottom: 12px;
+  }
+
+  .container {
+    width: 510px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .site-header {
+    min-width: 550px;
+    height: 186px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    background: #d17206 no-repeat center url("photo/пельмени6.jpg");
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .site-header p {
+    width: 500px;
+    margin: 0 auto 26px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .about {
+    width: 510px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+  }
+
+  .list {
+    width: 510px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+  }
+
+  .list-item {
+    margin-bottom: 15px;
+    color: #030303;
+  }
