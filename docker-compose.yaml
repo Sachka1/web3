@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: app/
+    volumes:
+      - .:/usr/src/app
+    container_name: docker-node-app
+    restart: always
+    ports:
+      - 3000:3000
