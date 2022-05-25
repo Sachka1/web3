@@ -1,0 +1,22 @@
+button {
+    height: 65px;
+	border: none;
+	background: #19bf8f;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 35px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 700ms ease; 
+}
+
+button:hover {
+	background: rgba(0,0,0,0);
+	color: #1bdaa2;
+	box-shadow: inset 0 0 0 3px #19bf8f;
+	bgcolor: #1bdaa2;
+	
+}
+
+

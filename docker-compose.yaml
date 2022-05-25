@@ -1,10 +1,19 @@
 version: '3'
 services:
-  app:
-    build: app/
+  server:
+    build: server/
     volumes:
       - .:/usr/src/app
-    container_name: docker-node-app
+    container_name: docker-node-server
     restart: always
     ports:
       - 3000:3000
+  
+  client:
+    build: client/
+    volumes:
+      - .:/usr/src/app
+    container_name: docker-node-client
+    restart: always
+    ports:
+      - 4000:4000
